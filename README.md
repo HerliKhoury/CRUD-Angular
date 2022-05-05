@@ -1,3 +1,2 @@
-# CRUD-using-Angular
+# CRUD-using-Angular :bowtie:
 
-# CRUD-Angular
