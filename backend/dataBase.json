@@ -1,24 +1,29 @@
 {
-    "produtos" : [
-        {
-            "id":1,
-            "name": "Seax",
-            "price": 200.00
-        },
-        {
-            "id":2,
-            "name": "Javelin",
-            "price": 80.00
-        },
-        {
-            "id":3,
-            "name": "Battle Axe",
-            "price": 1200.00
-        },
-        {
-            "id":4,
-            "name": "Viking Shield",
-            "price": 400.00
-        }
-    ]
+  "produtos": [
+    {
+      "id": 1,
+      "name": "Seax",
+      "price": 200
+    },
+    {
+      "id": 2,
+      "name": "Javelin",
+      "price": 80
+    },
+    {
+      "id": 3,
+      "name": "Battle Axe",
+      "price": 1200
+    },
+    {
+      "id": 4,
+      "name": "Viking Shield",
+      "price": 400
+    },
+    {
+      "id": 5,
+      "name": "Viking Sword",
+      "price": 1000
+    }
+  ]
 }
