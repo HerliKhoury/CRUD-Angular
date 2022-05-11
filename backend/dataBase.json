@@ -29,6 +29,11 @@
       "name": "Two-handed Axe",
       "price": "3000",
       "id": 6
+    },
+    {
+      "name": "Iron Arrow",
+      "price": "5",
+      "id": 7
     }
   ]
 }
