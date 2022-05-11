@@ -24,6 +24,11 @@
       "id": 5,
       "name": "Viking Sword",
       "price": 1000
+    },
+    {
+      "name": "Two-handed Axe",
+      "price": "3000",
+      "id": 6
     }
   ]
 }
