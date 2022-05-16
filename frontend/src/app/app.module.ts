@@ -30,6 +30,7 @@ import { MatTableModule } from '@angular/material/table';
 import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatSortModule } from '@angular/material/sort';
 import { AquaDirective } from './directives/aqua.directive';
+import { ProductUpdateComponent } from './components/product/product-update/product-update.component';
 
 
 @NgModule({
@@ -44,7 +45,8 @@ import { AquaDirective } from './directives/aqua.directive';
     ProductCreateComponent,
     ProductReadComponent,
     ProductRead2Component,
-    AquaDirective
+    AquaDirective,
+    ProductUpdateComponent
   ],
   imports: [
     BrowserModule,
