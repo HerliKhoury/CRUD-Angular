@@ -2,6 +2,7 @@ import { Product } from './../product.model';
 import { ProductService } from './../product.service';
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
+import { HeaderService } from '../../template/header/header.service';
 
 @Component({
   selector: 'app-product-create',
@@ -17,8 +18,15 @@ export class ProductCreateComponent implements OnInit {
 
   constructor(
     private productService: ProductService,
-    private router: Router
-    ) { }
+    private router: Router,
+    private headerService: HeaderService
+    ) {
+      headerService.headerData = {
+        title:'Insert new weapon',
+        icon:'security',
+        routeUrl:'products/create'
+      }
+     }
 
   ngOnInit(): void {
     
