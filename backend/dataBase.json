@@ -34,6 +34,11 @@
       "name": "Pedrinho's Sword",
       "price": "200",
       "id": 8
+    },
+    {
+      "name": "Battle Hammer",
+      "price": "1500",
+      "id": 9
     }
   ]
 }
