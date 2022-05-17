@@ -31,6 +31,7 @@ import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatSortModule } from '@angular/material/sort';
 import { AquaDirective } from './directives/aqua.directive';
 import { ProductUpdateComponent } from './components/product/product-update/product-update.component';
+import { ProductDeleteComponent } from './components/product/product-delete/product-delete.component';
 
 
 @NgModule({
@@ -46,7 +47,8 @@ import { ProductUpdateComponent } from './components/product/product-update/prod
     ProductReadComponent,
     ProductRead2Component,
     AquaDirective,
-    ProductUpdateComponent
+    ProductUpdateComponent,
+    ProductDeleteComponent
   ],
   imports: [
     BrowserModule,
