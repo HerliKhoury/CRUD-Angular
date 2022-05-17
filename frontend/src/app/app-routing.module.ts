@@ -19,7 +19,10 @@ const routes: Routes = [
     },{
       path:"products/update/:id",
       component:ProductUpdateComponent
-      }
+      },{
+        path:"products/delete/:id",
+        component:ProductUpdateComponent
+        }
 ];
 
 @NgModule({
