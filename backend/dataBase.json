@@ -39,6 +39,11 @@
       "name": "Battle Hammer",
       "price": "1500",
       "id": 9
+    },
+    {
+      "name": "Throwing axe",
+      "price": "30",
+      "id": 10
     }
   ]
 }
